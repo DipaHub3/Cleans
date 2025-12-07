@@ -1,0 +1,167 @@
+:root{
+  --first: rgb(107, 181, 82);
+  --second: rgb(139, 179, 131);
+  --third: rgb(62, 105, 48);
+  --text: rgb( 30, 30, 30);
+}
+
+body{
+  margin: 0;
+  padding: 2% 5%;
+  color: var(--text);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  font-size: 1.9rem;
+  line-height: 40px;
+}
+a{
+  text-decoration: none;
+}
+
+.title{
+  color: var(--first);
+  font-size: 6rem;
+  font-weight: bold;
+  text-align: left;
+  align-self: flex-start;
+  margin-bottom: 150px;
+  margin-top: 2rem;
+}
+
+.page-container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  
+}
+
+.intro{
+  width: 80%;
+  margin-bottom:50px;
+  line-height: 40px;
+}
+
+.button{
+  margin-top: 100px;
+  width: 200px;
+  padding: 1rem 1.2rem;
+  background-color: var(--second);
+  border-radius: 10px;
+  color: white;
+  margin-bottom: 100px;
+}
+
+.button:hover, .form form button{
+  cursor: pointer;
+}
+
+.button:hover{
+  background-color: white;
+  color: var(--second);
+  border: 0.01rem solid var(--second);
+}
+
+.promise-container{
+  width: auto;
+  padding: 4rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  border: 0.01rem solid var(--third);
+  margin-bottom: 100px;
+}
+
+.promise, .label, text{
+  width: 90%;
+}
+
+
+.promise, .label{
+  text-align: center;
+}
+
+
+
+.text{
+  font-size: 1.6rem;
+  margin-bottom: 50px;
+  text-align: left;
+  width: 60%;
+}
+.text1{
+  width: 90%;
+  font-size: 1.6rem;
+}
+
+
+
+.form{
+  margin-top: 100px;
+  width: 80%;
+  background-color: var(--second);
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.form form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 0;
+  row-gap: 40px;
+}
+
+.form form input{
+  height: 40px;
+  border-radius: 10px;
+  border: 0.01rem solid var(--third);
+  background-color: white;
+  padding: 0.4rem;
+  box-shadow: inset 2px 5px 5px rgba(0, 0,0, 0.3);
+}
+
+.form form select{
+  height: 40px;
+  width: 9rem;
+  border-radius: 10px;
+  background-color: white;
+  padding: 0.4rem;
+  box-shadow: inset 2px 5px 5px rgba(0, 0,0, 0.3);
+
+}
+
+.form form button{
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  border: 0.01rem solid var(--third);
+  background-color: white;
+}
+
+.form form button:hover{
+  background-color: var(--second);
+  color: white;
+  border-color: white ;
+}
+
+.last{
+  text-align: center;
+  background-color: none;
+  margin-top: 40px;
+  color: white;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.green{
+  color: var(--first);
+}
+
